@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	width: 1349px;
+	height: 110px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+.top img{
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.top span{
+	height: 34px;
+	line-height: 34px;
+	color: #333333;
+	font-size: 24px;
+	float: left;
+	margin-top: 40px;
+}
+.top a{
+	font-style: normal;
+	
+}
