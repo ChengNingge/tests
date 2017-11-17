@@ -1,14 +1,50 @@
-
+body {
+    background-color: #eee;
+}
 #ca div img{
     width: 100%;
-}
-.mainContent{
-    background-color: #eee;
 }
 #ss{
     border: none;
 }
-#xm5{
-    background-image: url(img/xiaomishouji5.jpg),url(img/xp.png);
+#xmj1{
+    height: 173px;
+    background-image: url(../img/xiaomishouji5.jpg);
+    background-repeat: no-repeat;
+    padding: 0 0 0 50px;
 }
-
+#sp img{
+    width: 10%;
+    float: left;
+    opacity: 0.8;
+}
+#sp div img+div{
+    width: 70%;
+    float: right;
+    padding-left: 25px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+#money{
+    font-size: 1.5rem;
+    color: orangered;
+    font-weight: bold;   
+}
+#xmj2{
+    height: 173px;
+    background-image: url(../img/xiaomishouji4c.jpg);
+    background-repeat: no-repeat;
+    padding: 0 0 0 50px;
+}
+#xmj3{
+    height: 173px;
+    background-image: url(../img/xiaomishouji4s.jpg);
+    background-repeat: no-repeat;
+    padding: 0 0 0 50px;
+}
+#xmj4{
+    height: 173px;
+    background-image: url(../img/xiaominote.jpg);
+    background-repeat: no-repeat;
+    padding: 0 0 0 50px;
+}

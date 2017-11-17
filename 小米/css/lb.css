@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;         
+}
+#hf{
+    margin-top: 64px;
+    padding: 0 20px;
+}
+#hf>img{
+    width: 100%;
+}
+#xmj{
+    padding: 20px;
+}
+#xmj img{
+    width: 30%;
+    float: left;
+    background-size: 100% 100%;              
+}
+#xmj img+div{
+    width: 70%;
+    float: right;
+    padding-left: 15px;
+    box-sizing: border-box;                
+}
+#money{
+    font-size: 1.8rem;
+    color: orangered;
+    font-weight: bold;
+    line-height: 70px;
+}

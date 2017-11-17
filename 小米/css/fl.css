@@ -1,20 +1,7 @@
- body{
-            margin: 0;
-            background-color: #eee;
-            
+body{
+    margin: 0;
+    background-color: #eee;           
 }
-header{
-            height: 64px;
-            color: gray;
-            font-size: 44px;
-            position: fixed;
-            text-align: center;
-            line-height: 64px;
-            top: 0px;
-            width: 100%;
-            background-color: #eee;
-            border-bottom: 1px grey solid;
-        }
 #lei{
     margin: 80px 20px 0px 20px;
     background-color: white;
@@ -25,17 +12,14 @@ header{
     padding: 20px;
 }
 main{
-            /*弹性布局是可以指定任意一个元素设置的*/
-            display: flex;
-            
-            /*margin-top: px;*/
-            /*自动换行*/
-            flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 main figure{
-            flex-basis: 200px;
-            margin: 5px;
-            flex-grow: 0;
+    flex-basis: 170px;
+    margin: 5px;
+    flex-grow: 1;
 }
 figcaption{
     padding: 0 20px 0 40px;

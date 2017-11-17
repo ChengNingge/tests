@@ -6,6 +6,7 @@
     <meta name="author" content="  ">
     <link rel="stylesheet" href="css/mall.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="" href="font-awesome/css/font-awesome.min.css">
     <title>小米商城</title>
     <style>
 
@@ -13,49 +14,11 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
-            <span class="sr-only">切换导航</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-            </div>
-            <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="商城.html"><img src="img/page-item.png" alt=""><br>商城</a></li>
-                    <li><a href="#"><img src="img/page-item.png" alt=""><br>分类</a></li>
-                    <li><a href="#"><img src="img/page-item.png" alt=""><br>购物车</a></li>
-                    <li><a href="#"><img src="img/page-item.png" alt=""><br>服务</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--<ul class="">
-                    <li class="active">
-                        <img src="img/page-item.png" alt="">
-                        <a href="商城.html" target="frame-bottom">商城</a>
-                    </li>
-                    <li>
-                        <img src="img/page-item.png" alt="">
-                        <a href="#" target="frame-bottom">分类</a>
-                    </li>
-                    <li>
-                        <img src="img/page-item.png" alt="">
-                        <a href="#" target="frame-bottom">购物车</a>
-                    </li>
-                    <li>
-                        <img src="img/page-item.png" alt="">
-                        <a href="#" target="frame-bottom">服务</a>
-                    </li>
-    </ul>-->
-    
+    <!--搜索框-->
     <div class="input-group">
-            <span class="input-group-addon" ><span class="glyphicon glyphicon-search"></span></span>
-            <input type="text" class="form-control" placeholder="搜索商品名称" id="ss">
+        <span class="input-group-addon"><a href="商品列表.html"><span class="fa fa-search"></span></a>
+        </span>
+        <input type="text" class="form-control" placeholder="搜索商品名称" id="ss">
     </div>
     <!--轮播-->
     <div id="myCarousel" class="carousel slide">
@@ -91,26 +54,55 @@
     </div>
 
 
-<!--网格-->
-<div class="mainContent">
+    <!--网格-->
+    <div class="mainContent">
         <div class="row">
-            <div class="col-sm-4 col-xs-12 border">
-               <img src="img/cx0.jpg" alt="">
+            <div class="col-sm-4 col-xs-4 border">
+                <a href="#"><img src="img/cx0.jpg" alt=""></a>
             </div>
-            <div class="col-sm-4 col-xs-12 border">
-                <img src="img/cx1.jpg" alt="">
+            <div class="col-sm-4 col-xs-4 border">
+                <a href="#"><img src="img/cx1.jpg" alt=""></a>
             </div>
-            <div class="col-sm-4 col-xs-12 border">
-                <img src="img/cx2.jpg" alt="">
+            <div class="col-sm-4 col-xs-4 border">
+                <a href="#"><img src="img/cx2.jpg" alt=""></a>
             </div>
         </div>
-</div>
-<!--商品-->
-<div>
-    <div id="xm5"></div>
-    <h3>小米手机5</h3>
-    <p>搭载澎湃S1 八核高性能处理器 / “暗夜之眼”超感光相机 / 135g 轻薄金属机身 / 5.15"高亮护眼屏</p>
-</div>
+    </div>
+    <!--商品-->
+    <div id="sp">
+        <div id="xmj1">
+            <img src="img/xp.png">
+            <div>
+                <h3>小米手机5s 全网通 白色 16GB</h3>
+                <p>搭载澎湃S1 八核高性能处理器 / “暗夜之眼”超感光相机 / 135g 轻薄金属机身 / 5.15"高亮护眼屏</p>
+                <p id="money">1600元 起</p>
+            </div>
+        </div>
+        <div id="xmj2">
+            <img src="img/xp.png">
+            <div>
+                <h3>小米手机4s 全网通 白色 16GB</h3>
+                <p>搭载澎湃S1 八核高性能处理器 / “暗夜之眼”超感光相机 / 135g 轻薄金属机身 / 5.15"高亮护眼屏</p>
+                <p id="money">1600元 起</p>
+            </div>
+        </div>
+        <div id="xmj3">
+            <img src="img/xp.png">
+            <div>
+                <h3>小米手机4c 全网通 白色 16GB</h3>
+                <p>搭载澎湃S1 八核高性能处理器 / “暗夜之眼”超感光相机 / 135g 轻薄金属机身 / 5.15"高亮护眼屏</p>
+                <p id="money">1899元 起</p>
+            </div>
+        </div>
+        <div id="xmj4">
+            <img src="img/xp.png">
+            <div>
+                <h3>小米手机note 全网通 白色 16GB</h3>
+                <p>搭载澎湃S1 八核高性能处理器 / “暗夜之眼”超感光相机 / 135g 轻薄金属机身 / 5.15"高亮护眼屏</p>
+                <p id="money">1399元 起</p>
+            </div>
+        </div>
+    </div>
 
 
     <script src="bootstrap/js/jquery.min.js">

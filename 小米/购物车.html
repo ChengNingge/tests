@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="author" content="  ">
+    <link rel="stylesheet" href="css/mi.css">
     <link rel="stylesheet" href="css/gwc.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="" href="font-awesome/css/font-awesome.min.css">
     <title>购物车</title>
     <style>
 
@@ -13,9 +15,13 @@
 </head>
 
 <body>
+    <!--头-->
     <header>
-
+        <a href="商城.html"><img src="img/icon-back.png" alt=""></a>
+        <span>购物车</span>
+        <span class="fa fa-search"></span>
     </header>
+    <!--购物框-->
     <div id="buy">
         <img src="img/buy-pic.jpg" alt="">
         <div>
@@ -24,22 +30,62 @@
             <div class="btn-group">
                 <button type="button" class="btn btn-default">-</button>
                 <button type="button" class="btn btn-default">1</button>
-                <button type="button" class="btn btn-default">+</button>             
+                <button type="button" class="btn btn-default">+</button>
             </div>
-            <span class="glyphicon glyphicon-trash pull-right" id="del"></span>
+            <span class="fa fa-trash-o fa-2x pull-right" id="del"></span>
         </div>
+    </div>
+    <!--保险-->
+    <div id="bx">
+        <img src="img/insurance.png" alt="">
+        <span>意外保险服务 99/年</span>
+        <span>购买服务</span>
+    </div>
+    <!--提示-->
+    <input id="shuru" placeholder="温馨提示：产品是否购买成功，以最终下单为准，请尽快结算">
+    <!--表单-->
+    <form>
+        <p>
+            <input type="checkbox" value="一元得小米礼品袋">+1元得小米礼品袋
+            <span>></span>
+        </p>
+        <p>
+            <input type="checkbox" value="">+9.9元得彩虹5号电池
+            <span>></span>
+        </p>
+        <p>
+            <input type="checkbox" value="一元得小米礼品袋">+108元得ZONOKI中诺基运动蓝牙耳机
+            <span>></span>
+        </p>
+        <p>
+            <input type="checkbox" value="一元得小米礼品袋">+5元得Type-C转接头
+            <span>></span>
+        </p>
+        <p>
+            <input type="checkbox" value="一元得小米礼品袋">+19元得智能唤醒翻盖保护套
+            <span>></span>
+        </p>
+        <p>
+            <input type="checkbox" value="一元得小米礼品袋">+12.9元得多彩便携USB线120cm
+            <span>></span>
+        </p>
+    </form>
+    <!--尾-->
+    <footer>
+        <div class="pull-left">
+            <span>共一件 金额：</span><br>
+            <span>1099</span>元
         </div>
-        <div id="bx">
-            <img src="img/insurance.png" alt="">
-            <span>意外保险服务 99/年</span>
-            <span>购买服务</span>
+        <div class="pull-right">
+            <a href="">去结算</a>
         </div>
-    
-    <script src="bootstrap/js/jquery.min.js">
+        <div class="pull-right">
+            <a href="商城.html">继续购物</a>
+        </div>
+    </footer>
 
-    </script>
-    <script src="bootstrap/js/bootstrap.min.js">
 
-    </script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 <html>
