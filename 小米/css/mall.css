@@ -1,0 +1,14 @@
+
+#ca div img{
+    width: 100%;
+}
+.mainContent{
+    background-color: #eee;
+}
+#ss{
+    border: none;
+}
+#xm5{
+    background-image: url(img/xiaomishouji5.jpg),url(img/xp.png);
+}
+
